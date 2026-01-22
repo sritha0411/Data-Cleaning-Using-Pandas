@@ -10,7 +10,9 @@ The objective is to read a dataset, identify and handle missing values, remove d
 **Dataset**
 
 Dataset Name: Titanic Dataset
+
 Source: Loaded directly from a GitHub link
+
 Format: CSV
 
 The dataset contains passenger information such as age, fare, gender, embarkation port, and family details.
@@ -29,19 +31,19 @@ Environment: Google Colab
 
 **Data Cleaning Steps Performed:**
 
--> Loaded the dataset using pandas.read_csv().
+→ Loaded the dataset using pandas.read_csv().
 
--> Inspected the dataset structure using head() and info().
+→ Inspected the dataset structure using head() and info().
 
--> Identified missing values using isnull().sum().
+→ Identified missing values using isnull().sum().
 
--> Filled missing numerical values (Age, Fare) using median.
+→ Filled missing numerical values (Age, Fare) using median.
 
--> Filled missing categorical values (Embarked) using mode.
+→ Filled missing categorical values (Embarked) using mode.
 
--> Avoided inplace=True to prevent chained assignment warnings.
+→ Avoided inplace=True to prevent chained assignment warnings.
 
--> Removed duplicate rows using drop_duplicates().
+→ Removed duplicate rows using drop_duplicates().
 
 ---
 
