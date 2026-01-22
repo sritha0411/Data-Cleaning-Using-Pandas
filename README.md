@@ -17,7 +17,7 @@ The dataset contains passenger information such as age, fare, gender, embarkatio
 
 ---
 
-**Tools & Technologies**
+**Tools & Technologies:**
 
 Language: Python
 Libraries: Pandas, NumPy
@@ -25,15 +25,15 @@ Environment: Google Colab
 
 ---
 
-**Data Cleaning Steps Performed**
+**Data Cleaning Steps Performed:**
 
-Loaded the dataset using pandas.read_csv().
-Inspected the dataset structure using head() and info().
-Identified missing values using isnull().sum().
-Filled missing numerical values (Age, Fare) using median.
-Filled missing categorical values (Embarked) using mode.
-Avoided inplace=True to prevent chained assignment warnings.
-Removed duplicate rows using drop_duplicates().
+-> Loaded the dataset using pandas.read_csv().
+-> Inspected the dataset structure using head() and info().
+-> Identified missing values using isnull().sum().
+-> Filled missing numerical values (Age, Fare) using median.
+-> Filled missing categorical values (Embarked) using mode.
+-> Avoided inplace=True to prevent chained assignment warnings.
+-> Removed duplicate rows using drop_duplicates().
 
 ---
 
@@ -45,7 +45,7 @@ Exported the cleaned dataset using to_csv().
 
 ---
 
-**Feature Engineering**
+**Feature Engineering:**
 
 Age_Group: Categorizes passengers based on age.
 Family_Size: Combines siblings/spouses and parents/children count to determine family size.
@@ -54,7 +54,7 @@ These transformations help improve data usability for analysis and modeling.
 
 ---
 
-**Output Files**
+**Output Files:**
 
 Task5_Cleaning.ipynb → Jupyter notebook with code and markdown explanations
 
@@ -62,12 +62,10 @@ cleaned_data.csv → Final cleaned dataset ready for analysis
 
 ---
 
-**Key Learnings**
+**Key Learnings:**
 
 Handling missing data effectively in Pandas
 Understanding the importance of datatype consistency
 Applying basic feature engineering
-
 Writing clean, warning-free Pandas code
-
 Documenting data preprocessing steps clearly
